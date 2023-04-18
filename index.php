@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Kodekloud E-Commerce</title>
+        <title>JFC E-Commerce</title>
 
         <!-- Favicon -->
         <link rel="icon" href="img/favicon.png" type="image/png" />
@@ -104,7 +104,7 @@
             <div class="row it_works">
               <?php
 
-                        $link = mysqli_connect('terraform-20230417225613505900000001.ceilgdviwnhc.us-east-1.rds.amazonaws.com', 'pragmadb', 'CV4NAVGQSjl3r6SfaAvY', 'ecomdb');
+                        $link = mysqli_connect('terraform-20230418132440299100000007.ceilgdviwnhc.us-east-1.rds.amazonaws.com', 'pragmadb', 'CV4NAVGQSjl3r6SfaAvY', 'ecomdb');
 
                         if ($link) {
                         $res = mysqli_query($link, "select * from products;");
