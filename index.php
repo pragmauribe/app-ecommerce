@@ -104,7 +104,7 @@
             <div class="row it_works">
               <?php
 
-                        $link = mysqli_connect('terraform-20230418132440299100000007.ceilgdviwnhc.us-east-1.rds.amazonaws.com', 'pragmadb', 'CV4NAVGQSjl3r6SfaAvY', 'ecomdb');
+                        $link = mysqli_connect('terraform-20230422140750946000000007.ceilgdviwnhc.us-east-1.rds.amazonaws.com', 'pragmadb', 'CV4NAVGQSjl3r6SfaAvY', 'ecomdb');
 
                         if ($link) {
                         $res = mysqli_query($link, "select * from products;");
